@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="a"></h1>
+    <p id="b"></p>
+    <h1>Javascript variables</h1>
+    <p>Sum of two numbers</p>
+    <p id="c"></p>
+    <h2>Javascript statements</h2>
+    <p id="d"></p>
+    <h2>Operator</h2>
+    <p id="e"></p>
+    <script>
+        //My heading
+        document.getElementById('a').innerHTML='Javascript comments'
+        //Paragraph
+        document.getElementById("b").innerHTML="This is my first paragraph"
+        
+        //Creating a variable
+        var num1=-2;
+        var num2=8;
+        var sum=num1+num2;
+        document.getElementById("c").innerHTML="The total sum is = "+sum
+        document.getElementById("c").innerHTML= sum
+        var x,y,z
+        x=6;
+        y=8;
+        z=x+y;
+        document.getElementById("d").innerHTML="The value of z is = "+z+"."
+        //Use of +,-,*,/,%
+        var x=5;
+        document.getElementById("e").innerHTML=x
+    </script>
+</body>
+</html>
